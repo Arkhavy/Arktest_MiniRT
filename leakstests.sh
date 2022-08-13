@@ -240,9 +240,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 9 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_pos/c.pos$y/c.pos$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_pos/c.pos$y/c.pos$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/c_errors/c_pos/c.pos$y/c.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_pos/c_pos$y/c.pos$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_pos/c_pos$y/c.pos$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/c_errors/c_pos/c_pos$y/c.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
@@ -259,9 +259,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 11 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_dir/c.dir$y/c.dir$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_dir/c.dir$y/c.dir$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/c_errors/c_dir/c.dir$y/c.dir$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_dir/c_dir$y/c.dir$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/c_errors/c_dir/c_dir$y/c.dir$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/c_errors/c_dir/c_dir$y/c.dir$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
@@ -296,9 +296,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 9 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l.pos$y/l.pos$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l.pos$y/l.pos$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l.pos$y/l.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l_pos$y/l.pos$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l_pos$y/l.pos$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l_pos$y/l_pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
@@ -352,9 +352,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 9 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/sp_errors/sp_pos/sp.pos$y/sp.pos$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/sp_errors/sp_pos/sp.pos$y/sp.pos$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/sp_errors/sp_pos/sp.pos$y/sp.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/sp_errors/sp_pos/sp_pos$y/sp.pos$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/sp_errors/sp_pos/sp_pos$y/sp.pos$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/sp_errors/sp_pos/sp_pos$y/sp.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
@@ -408,9 +408,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 9 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_pos/pl.pos$y/pl.pos$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_pos/pl.pos$y/pl.pos$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_pos/pl.pos$y/pl.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_pos/pl_pos$y/pl.pos$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_pos/pl_pos$y/pl.pos$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_pos/pl_pos$y/pl.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
@@ -427,9 +427,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 11 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_dir/pl.dir$y/pl.dir$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_dir/pl.dir$y/pl.dir$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_dir/pl.dir$y/pl.dir$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_dir/pl_dir$y/pl.dir$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_dir/pl_dir$y/pl.dir$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/pl_errors/pl_dir/pl_dir$y/pl.dir$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
@@ -472,9 +472,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 9 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_pos/cy.pos$y/cy.pos$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_pos/cy.pos$y/cy.pos$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_pos/cy.pos$y/cy.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_pos/cy_pos$y/cy.pos$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_pos/cy_pos$y/cy.pos$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_pos/cy_pos$y/cy.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
@@ -491,9 +491,9 @@ y=1
 while [ $y -le 3 ]; do
 	x=1
 	while [ $x -le 11 ]; do
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_dir/cy.dir$y/cy.dir$y.$x.rt\n" >> leakstests_outfile.txt
-		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_dir/cy.dir$y/cy.dir$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_dir/cy.dir$y/cy.dir$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_dir/cy_dir$y/cy.dir$y.$x.rt\n" >> leakstests_outfile.txt
+		printf "\nleaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_dir/cy_dir$y/cy.dir$y.$x.rt\n" >> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/cy_errors/cy_dir/cy_dir$y/cy.dir$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
