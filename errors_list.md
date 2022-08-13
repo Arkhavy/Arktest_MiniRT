@@ -20,6 +20,20 @@
 18. wrong order CY values
 19. wrong order PL values
 20. wrong order SP values
+21. Not enough A values
+22. Too much A values
+23. Not enough C values
+24. Too much C values
+25. Not enough L values
+26. Too much L values
+27. Not enough SP values
+28. Too much SP values
+29. Not enough PL values
+30. Too much PL values
+31. Not enough CY values
+32. Too much CY values
+33. .rt only
+34. File Does not exist
 
 **////////////////////////////////////////////////////////////**
 
@@ -87,7 +101,6 @@ for each value (x3)
 7. Number syntax (multiple +)
 8. Number syntax (multiple symbols)
 9. Number syntax (symbols everywhere)
-
 
 DIR
 0. number of ',' (!= 2)
@@ -164,35 +177,35 @@ height
 -------------------------------
 
 A
-	ratio
-	rgb
+	ratio 10
+	rgb 10
 
 C
-	pos
-	dir
-	fov
+	pos 9
+	dir 11
+	fov 9
 
 L
-	pos
-	ratio
-	rgb
+	pos 9
+	ratio 10
+	rgb 10
 
 SP
-	pos
-	diameter
-	rgb
+	pos 9
+	diameter 9
+	rgb 10
 
 PL
-	pos
-	dir
-	rgb
+	pos 9
+	dir 11
+	rgb 10
 
 CY
-	pos
-	dir
-	diameter
-	height
-	rgb
+	pos 9
+	dir 11
+	diameter 9
+	height 9
+	rgb 10
 
 --------------
 Fonctions
