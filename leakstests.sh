@@ -298,7 +298,7 @@ while [ $y -le 3 ]; do
 	while [ $x -le 9 ]; do
 		printf "\nleaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l_pos$y/l.pos$y.$x.rt\n" >> leakstests_outfile.txt
 		printf "\nleaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l_pos$y/l.pos$y.$x.rt\n" >> leakstests_errfile.txt
-		leaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l_pos$y/l_pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
+		leaks -atExit -q -- ../miniRT scenes/error/l_errors/l_pos/l_pos$y/l.pos$y.$x.rt >> leakstests_outfile.txt 2>> leakstests_errfile.txt
 		x=$(($x + 1))
 	done
 	y=$(($y + 1))
